@@ -38,23 +38,18 @@
             label4 = new Label();
             dataGridView1 = new DataGridView();
             btn_pesquisar = new Button();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            lbl_nome = new Label();
-            lbl_marca = new Label();
-            lbl_quantidade = new Label();
-            lbl_modelo = new Label();
             button1 = new Button();
             label9 = new Label();
+            numericUpDown1 = new NumericUpDown();
+            label10 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 493);
+            label1.Location = new Point(180, 510);
             label1.Name = "label1";
             label1.Size = new Size(21, 15);
             label1.TabIndex = 0;
@@ -62,7 +57,7 @@
             // 
             // txt_id
             // 
-            txt_id.Location = new Point(39, 490);
+            txt_id.Location = new Point(207, 506);
             txt_id.Name = "txt_id";
             txt_id.Size = new Size(100, 23);
             txt_id.TabIndex = 1;
@@ -71,7 +66,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(29, 46);
+            label2.Location = new Point(29, 43);
             label2.Name = "label2";
             label2.Size = new Size(34, 15);
             label2.TabIndex = 2;
@@ -79,7 +74,7 @@
             // 
             // txt_item
             // 
-            txt_item.Location = new Point(69, 43);
+            txt_item.Location = new Point(69, 40);
             txt_item.Name = "txt_item";
             txt_item.Size = new Size(481, 23);
             txt_item.TabIndex = 3;
@@ -88,7 +83,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(20, 75);
+            label3.Location = new Point(20, 72);
             label3.Name = "label3";
             label3.Size = new Size(43, 15);
             label3.TabIndex = 4;
@@ -96,14 +91,14 @@
             // 
             // txt_marca
             // 
-            txt_marca.Location = new Point(69, 72);
+            txt_marca.Location = new Point(69, 69);
             txt_marca.Name = "txt_marca";
             txt_marca.Size = new Size(481, 23);
             txt_marca.TabIndex = 5;
             // 
             // txt_modelo
             // 
-            txt_modelo.Location = new Point(69, 101);
+            txt_modelo.Location = new Point(69, 98);
             txt_modelo.Name = "txt_modelo";
             txt_modelo.Size = new Size(481, 23);
             txt_modelo.TabIndex = 6;
@@ -111,7 +106,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(12, 104);
+            label4.Location = new Point(12, 101);
             label4.Name = "label4";
             label4.Size = new Size(51, 15);
             label4.TabIndex = 7;
@@ -122,100 +117,24 @@
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllHeaders;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 130);
+            dataGridView1.Location = new Point(12, 136);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(538, 354);
             dataGridView1.TabIndex = 8;
             // 
             // btn_pesquisar
             // 
-            btn_pesquisar.Location = new Point(145, 490);
+            btn_pesquisar.Location = new Point(463, 506);
             btn_pesquisar.Name = "btn_pesquisar";
-            btn_pesquisar.Size = new Size(75, 23);
+            btn_pesquisar.Size = new Size(87, 23);
             btn_pesquisar.TabIndex = 9;
-            btn_pesquisar.Text = "Pesquisar";
+            btn_pesquisar.Text = "Fazer retirada";
             btn_pesquisar.UseVisualStyleBackColor = true;
             btn_pesquisar.Click += button1_Click;
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 15F);
-            label5.Location = new Point(12, 516);
-            label5.Name = "label5";
-            label5.Size = new Size(70, 28);
-            label5.TabIndex = 10;
-            label5.Text = "Nome:";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 15F);
-            label6.Location = new Point(12, 544);
-            label6.Name = "label6";
-            label6.Size = new Size(70, 28);
-            label6.TabIndex = 11;
-            label6.Text = "Marca:";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 15F);
-            label7.Location = new Point(12, 572);
-            label7.Name = "label7";
-            label7.Size = new Size(85, 28);
-            label7.TabIndex = 12;
-            label7.Text = "Modelo:";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 15F);
-            label8.Location = new Point(12, 600);
-            label8.Name = "label8";
-            label8.Size = new Size(119, 28);
-            label8.TabIndex = 13;
-            label8.Text = "Quantidade:";
-            // 
-            // lbl_nome
-            // 
-            lbl_nome.AutoSize = true;
-            lbl_nome.Font = new Font("Segoe UI", 15F);
-            lbl_nome.Location = new Point(103, 516);
-            lbl_nome.Name = "lbl_nome";
-            lbl_nome.Size = new Size(0, 28);
-            lbl_nome.TabIndex = 14;
-            // 
-            // lbl_marca
-            // 
-            lbl_marca.AutoSize = true;
-            lbl_marca.Font = new Font("Segoe UI", 15F);
-            lbl_marca.Location = new Point(103, 544);
-            lbl_marca.Name = "lbl_marca";
-            lbl_marca.Size = new Size(0, 28);
-            lbl_marca.TabIndex = 15;
-            // 
-            // lbl_quantidade
-            // 
-            lbl_quantidade.AutoSize = true;
-            lbl_quantidade.Font = new Font("Segoe UI", 15F);
-            lbl_quantidade.Location = new Point(137, 600);
-            lbl_quantidade.Name = "lbl_quantidade";
-            lbl_quantidade.Size = new Size(0, 28);
-            lbl_quantidade.TabIndex = 16;
-            // 
-            // lbl_modelo
-            // 
-            lbl_modelo.AutoSize = true;
-            lbl_modelo.Font = new Font("Segoe UI", 15F);
-            lbl_modelo.Location = new Point(103, 572);
-            lbl_modelo.Name = "lbl_modelo";
-            lbl_modelo.Size = new Size(0, 28);
-            lbl_modelo.TabIndex = 17;
-            // 
             // button1
             // 
-            button1.Location = new Point(475, 634);
+            button1.Location = new Point(475, 551);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 18;
@@ -234,21 +153,31 @@
             label9.Text = "Filtrar por:";
             label9.Click += label9_Click;
             // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Location = new Point(388, 506);
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(69, 23);
+            numericUpDown1.TabIndex = 20;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(313, 510);
+            label10.Name = "label10";
+            label10.Size = new Size(69, 15);
+            label10.TabIndex = 21;
+            label10.Text = "Quantidade";
+            // 
             // Inventario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(562, 669);
+            ClientSize = new Size(562, 586);
+            Controls.Add(label10);
+            Controls.Add(numericUpDown1);
             Controls.Add(label9);
             Controls.Add(button1);
-            Controls.Add(lbl_modelo);
-            Controls.Add(lbl_quantidade);
-            Controls.Add(lbl_marca);
-            Controls.Add(lbl_nome);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(label5);
             Controls.Add(btn_pesquisar);
             Controls.Add(dataGridView1);
             Controls.Add(label4);
@@ -265,6 +194,7 @@
             Text = "Inventário";
             Load += Inventario_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -281,15 +211,9 @@
         private Label label4;
         private DataGridView dataGridView1;
         private Button btn_pesquisar;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label lbl_nome;
-        private Label lbl_marca;
-        private Label lbl_quantidade;
-        private Label lbl_modelo;
         private Button button1;
         private Label label9;
+        private NumericUpDown numericUpDown1;
+        private Label label10;
     }
 }

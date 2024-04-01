@@ -67,10 +67,10 @@ namespace CRUDInformatica
 
                 dr.Read();
 
-                lbl_nome.Text = Convert.ToString(dr["item"]);
-                lbl_marca.Text = Convert.ToString(dr["marca"]);
-                lbl_modelo.Text = Convert.ToString(dr["modelo"]);
-                lbl_quantidade.Text = Convert.ToString(dr["quantidade"]);
+                // lbl_nome.Text = Convert.ToString(dr["item"]);
+                // lbl_marca.Text = Convert.ToString(dr["marca"]);
+                // lbl_modelo.Text = Convert.ToString(dr["modelo"]);
+                // lbl_quantidade.Text = Convert.ToString(dr["quantidade"]);
             }
             catch (Exception ex)
             {
