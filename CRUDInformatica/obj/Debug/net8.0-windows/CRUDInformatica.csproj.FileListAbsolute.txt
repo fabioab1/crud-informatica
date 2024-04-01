@@ -24,3 +24,4 @@ C:\Users\fabio\Documents\Projects\CRUDInformatica\CRUDInformatica\bin\Debug\net8
 C:\Users\fabio\Documents\Projects\CRUDInformatica\CRUDInformatica\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\fabio\Documents\Projects\CRUDInformatica\CRUDInformatica\obj\Debug\net8.0-windows\CRUDInformatica.csproj.AssemblyReference.cache
 C:\Users\fabio\Documents\Projects\CRUDInformatica\CRUDInformatica\obj\Debug\net8.0-windows\CRUDInfo.F5D69E81.Up2Date
+C:\Users\fabio\Documents\Projects\CRUDInformatica\CRUDInformatica\obj\Debug\net8.0-windows\CRUDInformatica.sourcelink.json

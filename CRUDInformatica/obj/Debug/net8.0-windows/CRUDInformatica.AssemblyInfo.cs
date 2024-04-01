@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDInformatica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcb8e2715b489c70eb6e4c75bb4ab46edf19948c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDInformatica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDInformatica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

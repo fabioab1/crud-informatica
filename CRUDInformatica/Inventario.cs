@@ -94,7 +94,17 @@ namespace CRUDInformatica
 
         private void txt_id_KeyUp(object sender, KeyEventArgs e)
         {
-            sqlConexao = "select * from dbo.Inventario where iditem like'"+ txt_id.Text +"'";
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_item_KeyUp(object sender, KeyEventArgs e)
+        {
+            sqlConexao = "select * from dbo.Inventario where item like'" + txt_item.Text + "'";
             Carregar(sqlConexao);
         }
     }
